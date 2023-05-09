@@ -4,7 +4,9 @@ from math import sqrt, log, acos, cos, sin, exp
 
 class Quat:
     """
-    This file creates a class quaternion type in python, with methods manipulate usual algebraic operations (+,-,*,**,norm, unit,abs,exp,log ..) 
+    This file creates a class quaternion type in python, 
+    with methods manipulate usual algebraic operations 
+    like: +,-,*,**,norm, unit,abs,exp,log .. 
     """
     def __init__(self,a,b,c,d):
         self.a=a; self.b=b; self.c=c; self.d=d
