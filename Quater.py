@@ -95,7 +95,7 @@ class Quat:
     def log(self):
         # log(q) = (ln|q|, (acos(s/|q|)(v/|v|)
         if self.qabs() == 0:
-            return null
+            return 
         if self.qi().qabs() == 0:
             return Quat(log(self.a),0,0,0)        
         ss, aq = self.a, self.qabs()
